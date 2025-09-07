@@ -1,4 +1,4 @@
-import React from "react";
+// No default React import needed
 
 const Footer = () => {
   return (

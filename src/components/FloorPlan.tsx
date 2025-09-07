@@ -1,5 +1,5 @@
 // src/components/FloorPlan.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { useModal } from "../hooks/useModal";
 import { initialRooms } from "../data/rooms";
 import floorPlan from "../assets/floorplan.jpg";

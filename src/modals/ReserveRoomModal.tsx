@@ -16,7 +16,7 @@ const ReserveRoomModal: React.FC<ReserveRoomModalProps> = ({ room, setRooms }) =
 
   const handleConfirm = () => {
     // Mark room as booked
-    setRooms((prev) =>
+    setRooms((prev: any) =>
       prev.map((r: any) =>
         r.id === room.id ? { ...r, status: "Booked" } : r
       )

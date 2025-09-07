@@ -1,5 +1,6 @@
 // src/context/ModalProvider.tsx
-import { createContext, useState, ReactNode } from "react";
+import { createContext, useState } from "react";
+import type { ReactNode } from "react";
 
 type Modal = {
   id: string;
