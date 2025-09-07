@@ -24,11 +24,9 @@ const ReserveRoomModal: React.FC<ReserveRoomModalProps> = ({ room, setRooms }) =
 
     // Close this modal
     closeModal(`reserve-${room.id}`);
-
-    // Also close the room details modal so the user isn't redirected there
+ 
     closeModal(`room-${room.id}`);
-
-    // Open confirmation modal
+ 
     openModal(`confirm-${room.id}`, <ConfirmationModal room={room} />);
   };
 
