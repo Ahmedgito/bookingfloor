@@ -1,5 +1,3 @@
-// No default React import needed
-
 const Header = () => {
   return (
     <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">

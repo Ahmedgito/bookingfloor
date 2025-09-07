@@ -1,4 +1,3 @@
-// src/components/RoomsTable.tsx
 import type { FC } from "react";
 
 type Room = {
@@ -17,8 +16,9 @@ const RoomsTable: FC<RoomsTableProps> = ({ rooms }) => {
   const total = rooms.length;
   const booked = rooms.filter((r) => r.status === "Booked").length;
   const available = rooms.filter((r) => r.status === "Available").length;
-  // In current flow, "Reserved" maps to Booked after confirmation
-  const reserved = booked; // alias for display as requested
+
+ 
+  const reserved = booked;  
 
   return (
     <div className="mt-8">

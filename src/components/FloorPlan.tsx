@@ -10,7 +10,9 @@ const FloorPlan = () => {
   const [rooms, setRooms] = useState(initialRooms);
   const { openModal } = useModal();
 
-  const openRoomDetails = (room: any) => {
+{/* implementation of do not include modal html or component code in the your component` */}
+
+const openRoomDetails = (room: any) => {
     openModal(
       `room-${room.id}`,
       <RoomDetailsModal room={room} setRooms={setRooms} />
@@ -20,8 +22,8 @@ const FloorPlan = () => {
   return (
     <>
       <div className="w-full flex justify-center">
-        {/* Container matches image box, ensuring absolute children align with image */}
         <div className="relative inline-block">
+            
           {/* Floor plan image */}
           <img
             src={floorPlan}

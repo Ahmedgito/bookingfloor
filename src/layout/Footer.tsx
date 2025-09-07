@@ -1,5 +1,3 @@
-// No default React import needed
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 text-sm py-4 px-6 text-center">

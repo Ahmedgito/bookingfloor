@@ -9,15 +9,15 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-950 text-white">
-      {/* Header */}
+      
       <Header />
 
-      {/* Main content */}
+      
       <main className="flex-grow container mx-auto px-4 py-6">
         {children}
       </main>
 
-      {/* Footer */}
+       
       <Footer />
     </div>
   );

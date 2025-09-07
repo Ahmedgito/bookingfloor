@@ -1,8 +1,7 @@
-// src/hooks/useModal.ts
 import { useContext } from "react";
 import { ModalContext } from "../context/ModalContext";
 
-// This hook makes sure you can access the modal context easily
+// This hook makes sure model contesxt is accessivble easily
 export const useModal = () => {
   const context = useContext(ModalContext);
 

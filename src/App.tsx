@@ -4,14 +4,14 @@ import Layout from "./layout/Layout"
 
 
 
-function App() { 
+function App() {
 
   return (
     <> <ModalProvider>
       <Layout>
-        <FloorPlan/>
-      </Layout> 
-      </ModalProvider>
+        <FloorPlan />
+      </Layout>
+    </ModalProvider>
     </>
   )
 }
